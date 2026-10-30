@@ -111,7 +111,7 @@ xf86-video-ati
 - `intel-media-driver` supports newer Intel graphics generations; `libva-intel-driver` is the older VA-API driver. Whether you need one or both depends on your GPU and applications.
 - Xorg DDX packages such as `xf86-video-amdgpu`, `xf86-video-ati`, and `xf86-video-nouveau` are not automatically needed for a Wayland-first Hyprland setup.
 - `lib32-vulkan-intel` is useful for some 32-bit Steam games on Intel graphics. Choose the matching 32-bit Vulkan package for other GPUs.
-- `base-devel` is useful for building AUR packages.
+- `base-devel` is useful for building  packages.
 - Review Arch's current package names and hardware guidance before installation.
 
 ---
@@ -445,6 +445,11 @@ tableplus
 postman-bin
 v2rayn-bin
 zapzap-bin
+localsend-bin
+proton-mail-bin
+ab-download-bin
+anydesk-bin
+winboat-bin
 ```
 
 ### Office & Adobe Application alternatives
