@@ -465,13 +465,9 @@ designcraft-bin
 effectcraft-bin
 vectorcraft-bin
 filmcraft-bin
-solidcraft-bin
-cadcraft-bin
-fieldcraft-bin
 figcraft-bin
-bimcraft-bin
 soundcraft-bin
-openoffice-bin
+onlyoffice-bin
 ```
 
 ### AUR installation notes
