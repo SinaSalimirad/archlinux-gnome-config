@@ -31,6 +31,9 @@ file
 which
 wl-clipboard
 sudo
+eza
+fzf
+zoxide
 ```
 
 ### Optional
