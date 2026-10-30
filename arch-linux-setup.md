@@ -34,10 +34,9 @@ eza
 fzf
 zoxide
 zsh
-zsh-completions
 zsh-autosuggestions
 zsh-syntax-highlighting
-zsh-history-substring-search
+zsh-completions
 fzf
 ```
 
