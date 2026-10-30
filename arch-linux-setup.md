@@ -56,7 +56,6 @@ reflector
 
 ```text
 linux
-linux-lts
 linux-firmware
 linux-headers
 base-devel
@@ -101,8 +100,7 @@ xf86-video-ati
 
 ### Notes
 
-- Install `linux` and `linux-lts` only if you intend to maintain both kernels.
-- If you use DKMS modules, install the matching headers for each kernel you use, such as `linux-headers` and/or `linux-lts-headers`.
+- If you use DKMS modules, install the matching headers for each kernel you use, such as `linux-headers`.
 - Do not install every GPU driver by default. Select packages that match the actual hardware.
 - `intel-media-driver` supports newer Intel graphics generations; `libva-intel-driver` is the older VA-API driver. Whether you need one or both depends on your GPU and applications.
 - Xorg DDX packages such as `xf86-video-amdgpu`, `xf86-video-ati`, and `xf86-video-nouveau` are not automatically needed for a Wayland-first Hyprland setup.
@@ -132,15 +130,11 @@ ttf-jetbrains-mono-nerd
 ```text
 papirus-icon-theme
 adwaita-icon-theme
-nwg-look
-qt5ct
-qt6ct
 ```
 
 ### Notes
 
 - Choose one or more preferred icon themes rather than installing themes without a reason.
-- A glass/translucent desktop requires configuration as well as packages: GTK/Qt theme settings, compositor opacity and blur rules, icons, and application-specific settings.
 - Keep downloaded themes and AUR theme packages in a separate optional list.
 
 ---
@@ -155,7 +149,7 @@ networkmanager-openvpn
 networkmanager-openconnect
 networkmanager-l2tp
 networkmanager-pptp
-networkmanager-sstp
+network-manager-sstp
 wireguard-tools
 ```
 
@@ -215,8 +209,6 @@ git
 jq
 yq
 uv
-shellcheck
-shfmt
 ```
 
 ### Editors and development applications
@@ -234,7 +226,6 @@ postman-bin
 - `nodejs`, `npm`, and `bun` serve related but different workflows. Install only what your projects require.
 - `python-pip` and `uv` may be useful, but use virtual environments for Python project dependencies and follow current Arch Python packaging guidance.
 - `jq` and `yq` help process JSON and YAML from the command line.
-- `shellcheck` and `shfmt` help lint and format shell scripts.
 - The `-bin` packages listed above are commonly associated with AUR naming conventions, but verify each package's source before automating installation.
 - Check whether VSCodium's marketplace package is compatible with the current VSCodium build and extension-source requirements.
 
