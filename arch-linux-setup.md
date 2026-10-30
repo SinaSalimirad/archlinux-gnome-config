@@ -23,7 +23,6 @@ openssh
 tree
 tmux
 fastfetch
-bash-completion
 git
 curl
 wget
@@ -34,6 +33,12 @@ sudo
 eza
 fzf
 zoxide
+zsh
+zsh-completions
+zsh-autosuggestions
+zsh-syntax-highlighting
+zsh-history-substring-search
+fzf
 ```
 
 ### Optional
@@ -45,7 +50,6 @@ reflector
 ### Notes
 
 - `man-pages` and `texinfo` provide additional local documentation.
-- `bash-completion` adds command completion for Bash.
 - `reflector` can help manage Arch mirror lists; it is optional.
 - `zip`, `unzip`, `unrar`, and `p7zip` cover common archive formats.
 - This list supplements the base installation; it does not replace the `base` package group or kernel installation.
