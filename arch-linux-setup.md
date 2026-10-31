@@ -450,6 +450,7 @@ proton-mail-bin
 ab-download-bin
 anydesk-bin
 winboat-bin
+persian-fonts 
 ```
 
 ### Office & Adobe Application alternatives
